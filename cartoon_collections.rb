@@ -13,5 +13,5 @@ end
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr_cheese   = arr & cheese_types
-  arr_cheese.empty? ? nil : arr_cheese.join[0]
+  arr_cheese.empty? ? nil : arr_cheese[0].join
 end
