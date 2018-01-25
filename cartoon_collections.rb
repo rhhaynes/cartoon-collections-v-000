@@ -6,8 +6,8 @@ def summon_captain_planet(arr)
   arr.map{|n| n.capitalize}
 end
 
-def long_planeteer_calls()
-  
+def long_planeteer_calls(arr)
+  arr.any?{|n| n.length>4}
 end
 
 def find_the_cheese# code an argument here
