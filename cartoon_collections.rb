@@ -1,5 +1,3 @@
-require 'pry'
-
 def roll_call_dwarves(arr)
   arr.each_with_index{|n,i| puts "#{i+1}. #{n}"}
 end
@@ -17,5 +15,3 @@ def find_the_cheese(arr)
   arr_cheese   = arr & cheese_types
   arr_cheese.empty? ? nil : arr_cheese[0]
 end
-
-find_the_cheese(["swiss","camembert","american"])
